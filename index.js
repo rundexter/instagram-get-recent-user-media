@@ -12,13 +12,13 @@ var globalPickResult = {
     medias: {
         key: 'medias',
         fields: {
-            'id': 'id',
-            'user.username': 'username',
-            'images.standard_resolution.url': 'standard_resolution_url',
-            'caption.text': 'caption_text',
-            'likes.count': 'likes_count',
-            'tags': 'tags',
-            'location': 'location'
+            'id': 'MediaID',
+            'user.username': 'Username',
+            'images.standard_resolution.url': 'Media',
+            'caption.text': 'Caption',
+            'likes.count': 'Likes',
+            'tags': 'Tags',
+            'location': 'Location'
         }
     }
 };

@@ -4,23 +4,29 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "userId",
+            "title":"User ID"
+        },
+        {
+            "id": "count",
+            "title":"Count"
+        },
+        {
+            "id": "min_id",
+            "title":"Minimum ID"
+        },
+        {
+            "id": "max_id",
+            "title":"Maximum ID"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "medias",
+            "title":"Array of medias"
         }
-      */
     ],
     "title": "Instagram Get Recent User Media" /* Required.A display name for the module */
 }
