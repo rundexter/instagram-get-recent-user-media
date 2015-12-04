@@ -24,8 +24,32 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "medias",
-            "title":"Array of medias"
+            "id": "MediaID",
+            "title":"MediaID"
+        },
+        {
+            "id": "Username",
+            "title":"Username"
+        },
+        {
+            "id": "Media",
+            "title":"Media"
+        },
+        {
+            "id": "Caption",
+            "title":"Caption"
+        },
+        {
+            "id": "Likes",
+            "title":"Likes"
+        },
+        {
+            "id": "Tags",
+            "title":"Tags"
+        },
+        {
+            "id": "Location",
+            "title":"Location"
         }
     ],
     "title": "Instagram Get Recent User Media" /* Required.A display name for the module */
