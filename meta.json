@@ -52,5 +52,6 @@
             "title":"Location"
         }
     ],
+    "icon": "instagram",
     "title": "Instagram Get Recent User Media" /* Required.A display name for the module */
 }
