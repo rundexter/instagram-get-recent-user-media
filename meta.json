@@ -2,7 +2,6 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
         {
             "id": "userId",
@@ -21,37 +20,40 @@
             "title":"Maximum ID"
         }
     ],
-    //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "MediaID",
+            "id": "id",
             "title":"MediaID"
         },
         {
-            "id": "Username",
+            "id": "username",
             "title":"Username"
         },
         {
-            "id": "Media",
+            "id": "standard_resolution",
             "title":"Media"
         },
         {
-            "id": "Caption",
+            "id": "caption_text",
             "title":"Caption"
         },
         {
-            "id": "Likes",
+            "id": "likes",
             "title":"Likes"
         },
         {
-            "id": "Tags",
+            "id": "tags",
             "title":"Tags"
         },
         {
-            "id": "Location",
+            "id": "location",
             "title":"Location"
         }
     ],
+    "providers": [{
+        "name": "instagram",
+        "scopes": [ "basic", "public_content" ]
+    }],
     "icon": "instagram",
-    "title": "Instagram Get Recent User Media" /* Required.A display name for the module */
+    "title": "Instagram Get Recent User Media"
 }
